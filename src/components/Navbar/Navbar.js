@@ -98,7 +98,11 @@ function Navbar() {
         </Offcanvas.Header>
 
         <Offcanvas.Body>
-          <Nav className="text-uppercase flex-column" id="offcanvas_menu">
+          <Nav
+            className="text-uppercase flex-column"
+            id="offcanvas_menu"
+            onClick={handleClose}
+          >
             <Link className="nav-link" to="/">
               Home
             </Link>
